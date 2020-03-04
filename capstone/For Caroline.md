@@ -4,7 +4,7 @@ All of the data collection is in the files labeled 'API', 'years in league', and
 
 The DataFrame is put together in the "DataFrame merge" file and preliminary EDA is done in the 'EDA' file.
 
-The 'Clustering' file both KMeans clustering and DBSCAN and clusters are added to my DataFrame
+The 'Clustering' file has both KMeans clustering and DBSCAN and a clusters column is added to my DataFrame
 
 The modeling that I have done so far is in the "Regression" file
 
