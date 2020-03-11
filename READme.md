@@ -45,7 +45,7 @@ A heatmap is made to visualize the correlative relationship between each numeric
 The distribution of salaries (fig.1) ranges from a minimum of $79,568 (44 different players) to $40,231,758 (Steph Curry) and is heavily left leaning with the vast majority of players' salaries at 5 million or below. Several distributions are created to show the range of salaries at different cutoffs (500k, 2 million, 10 million - fig2). Large spikes appear at a few major salary values including $79,568, $898,310, $1,416,852, $2,564,753, and $4,767,000. These correlate to contract minimums for players. Often contracts specify salary ranges rather than specific, precise values and the player's yearly salary depends on performance. Players that are considered to be meeting their contract but not exceeding expectations have salaries at these values, especially at the league minimum of $79,568.
 
 Fig. 1
-![fig1](/figures/figure1.png = 250x)
+![fig1](/figures/figure1.png)
 
 Fig. 2
 ![fig2](/figures/figure2.png)
