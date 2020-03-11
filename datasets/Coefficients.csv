@@ -1,0 +1,17 @@
+feature,coef
+games_started,2129439.723779339
+assists_to_turnovers,291933.5709091446
+defensive_rebounds,2188899.6879365044
+steals,440473.3034055039
+future_salary,157999.31201358003
+avg_pnts_per_game,1716677.9246333705
+pct_of_games_started,562651.5832674826
+games^2,-368368.3025040688
+games start_year,459118.2158593423
+games_started pct_of_games_started,1162387.9786660124
+3_pntrs_made^2,73289.07655090682
+3_pntrs_made avg_pnts_per_game,306833.0019178457
+3_pntrs_assists future_salary,76780.03418265622
+assists_to_turnovers^2,43677.98799602684
+blocks turnovers,-772418.5218945373
+avg_pnts_per_game^2,637107.7253516064
