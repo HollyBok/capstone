@@ -36,11 +36,11 @@ The final features are as follows:
 
 |Feature|Type|Description|
 |---|---|---|
-|player_id|int| The official NBA Player ID Number for each baseketball player| 
+|player_id|int| The official NBA Player ID Number for each basketball player| 
 |player_name|object| Full name of player as he appears on the roster| 
 |team|object| The 3 letter abbreviation code for the player's current team|
 |height|object| The height of the player in standard feet-inches format|
-|weight|float| Most recently recoreded weight of player in lbs| 
+|weight|float| Most recently recorded weight of player in lbs| 
 |seasons|int| Total seasons that the player has been in the NBA|
 |points|int| Total points scored in all games throughout career| 
 |games|int| The number of total games the player has played in throughout career|
@@ -51,28 +51,27 @@ The final features are as follows:
 |field_goals_pct_made|float| Percentage of successful field goal attempts (2 or 3 pointer)| 
 |3_pntrs_pct_made|float| Percentage of successful 3 point field goal attempts|
 |ft_pct|float| Percentage of free throws made|
-|field_goals_assisted|int| Total field goals made throughought career where the player acted as an assist (where an assist is a maneuver that directly results in another player successfully scoring points)| 
-|3_pntrs_assists|int| Total 3-point field goals made throughought career where the player acted as an assist|
+|field_goals_assisted|int| Total field goals made throughout career where the player acted as an assist (where an assist is a maneuver that directly results in another player successfully scoring points)| 
+|3_pntrs_assists|int| Total 3-point field goals made throughout career where the player acted as an assist|
 |rebounds|int| Total rebounds made throughout career. Rebounds apply to maneuvers in which a player is able to gain control of the ball after the opposing team has made a basket |
 |assists_to_turnovers|int| Total assists in which the assisted player makes a turnover. Turnover applies to situations in which a player is able to gain control of the ball from the opposing team before the opposing team has attempted to score points|
-|offensive_rebounds|int| Total rebounds on the opposing teams court-side throughought career|
+|offensive_rebounds|int| Total rebounds on the opposing teams court-side throughout career|
 |defensive_rebounds|int| Total rebounds on the player's teams' court-side throughout career|
 |steals|int| Total maneuvers in which the player is able to legally steal the ball from the opposing team throughout career|
 |blocks|int| Total blocks throughout career where blocks applies to situations in which the player is able to directly stop a member of the opposing team from scoring points| 
 |turnovers|int| Total maneuvers throughout career in which the player is able to recover the ball from the opposing team without stealing before the opposing team has attempted to score points|
-|personal_fouls|int| Total fouls that have been assigned to the player thoughout career|
+|personal_fouls|int| Total fouls that have been assigned to the player throughout career|
 |start_year|int| The year the player joined the NBA| 
 |19_20_salary|int| Current salary for the 2019/2020 season in USD|
 |future salary|int| Whether or not the player has a settled salary for the next season (2020/2021). Players that do not have a settled salary have a value of 0 and players that have a settled salary have a value of 1|
 |avg_pnts_per_game|float| Average points made per all games played. Calculated by dividing 'points' by 'games'|
 |pct_of_games_started|float| Percentage of total games played that the player was on the starting lineup for. Calculated by dividing 'games_started' by 'games'|
 |heights_inches|int| The most recent recorded height expressed in inches rather than the traditional feet-inches format|
-|draft_1st_pick|int| Whether or not the player was drafted during the 1st draft round. Players who were drated in the first round receive a 1 and players who were not receive a 0|
-|draft_2nd_pick|int| Whether or not the player was drafted during the 2nd draft round. Players who were drated in the second round receive a 1 and players who were not receive a 0|
-|draft_undrafted|int| Whether or not the player was drafted. Players who were not drafted receive a 1 and players who were drafted receive a 0. Non-drafted players can enter the NBA through direct contracts with indivudual teams|
+|draft_1st_pick|int| Whether or not the player was drafted during the 1st draft round. Players who were drafted in the first round receive a 1 and players who were not receive a 0|
+|draft_2nd_pick|int| Whether or not the player was drafted during the 2nd draft round. Players who were drafted in the second round receive a 1 and players who were not receive a 0|
+|draft_undrafted|int| Whether or not the player was drafted. Players who were not drafted receive a 1 and players who were drafted receive a 0. Non-drafted players can enter the NBA through direct contracts with individual teams|
 |draft_number_group|object| The 'grouping' of draft pick numbers where players who were picked 1st through 10th are assigned draft group 1-10, players who were picked 11th through 20th are assigned draft group 2-20, and so on|
-|draft_nmbr_grp_rank|int| A ranking of draft number group where the 1-10 group is ranked at 1| 
-
+|draft_nmbr_grp_rank|int| A ranking of draft number group where the 1-10 group is ranked at 1|
 
 ## Initial EDA
 
